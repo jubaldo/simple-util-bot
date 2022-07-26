@@ -1,0 +1,25 @@
+{
+  "name": "simple-util-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that will include the roles of each member",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-container": "docker-compose build",
+    "run-container": "docker-compose up -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jubaldo/simple-util-bot.git"
+  },
+  "author": "Julian Ubaldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jubaldo/simple-util-bot/issues"
+  },
+  "homepage": "https://github.com/jubaldo/simple-util-bot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.0",
+    "discord.js": "^14.0.3"
+  }
+}

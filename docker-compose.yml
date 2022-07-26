@@ -1,0 +1,11 @@
+services:
+  simple_util_bot: #autocompiles whenever it detect changes in go files
+    build:
+        context: ./
+        dockerfile: ./Dockerfile
+    volumes:
+        - ./csv_files:/usr/app/csv_files
+    ports:
+        - "8080:80"
+    env_file:
+        - .env
